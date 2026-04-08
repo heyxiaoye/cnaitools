@@ -1,0 +1,64 @@
+[
+  {
+    "id": "kimi-vs-chatgpt",
+    "title": "Kimi vs ChatGPT",
+    "slug": "kimi-vs-chatgpt",
+    "chinatool": "kimi",
+    "ustool": "ChatGPT",
+    "winner": "Depends on use case",
+    "comparison": {
+      "pricing": {
+        "china": "Free + $10/mo Pro",
+        "us": "$20/mo Plus",
+        "winner": "china"
+      },
+      "contextLength": {
+        "china": "200K tokens",
+        "us": "128K tokens",
+        "winner": "china"
+      },
+      "codeQuality": {
+        "china": "Good",
+        "us": "Excellent",
+        "winner": "us"
+      },
+      "chineseLanguage": {
+        "china": "Native",
+        "us": "Good but not native",
+        "winner": "china"
+      }
+    },
+    "verdict": "Choose Kimi if you work with long documents in Chinese. Choose ChatGPT for advanced coding and reasoning."
+  },
+  {
+    "id": "jimeng-vs-midjourney",
+    "title": "即梦 vs Midjourney",
+    "slug": "jimeng-vs-midjourney",
+    "chinaool": "jimeng",
+    "ustool": "Midjourney",
+    "winner": "Depends on style",
+    "comparison": {
+      "pricing": {
+        "china": "$9.9/mo",
+        "us": "$10-60/mo",
+        "winner": "china"
+      },
+      "asianAesthetics": {
+        "china": "Excellent",
+        "us": "Good",
+        "winner": "china"
+      },
+      "photorealism": {
+        "china": "Good",
+        "us": "Excellent",
+        "winner": "us"
+      },
+      "easeOfUse": {
+        "china": "Very easy (web UI)",
+        "us": "Discord-based (learning curve)",
+        "winner": "china"
+      }
+    },
+    "verdict": "Choose 即梦 for Asian-style art and affordability. Choose Midjourney for photorealistic Western content."
+  }
+]
