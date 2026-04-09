@@ -8,8 +8,11 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ToolPage({ params }: { params: { slug: string } }) {
-  const tool = tools.find(t => t.id === params.slug);
+export const dynamicParams = false;
+
+export default async function ToolPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const tool = tools.find(t => t.id === slug);
   
   if (!tool) {
     notFound();
