@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && cp -r out .next/standalone-output || cp -r out/* .next/ || true",
     "start": "next start",
     "lint": "next lint"
   },
