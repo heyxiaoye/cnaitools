@@ -154,7 +154,7 @@ export default function Home() {
             <Link href="/compare" className="px-8 py-4 bg-white text-blue-600 rounded-lg font-bold hover:bg-gray-100">
               Compare Tools
             </Link>
-            <a href="https://twitter.com/yourhandle" target="_blank" 
+            <a href="https://x.com/heyxiaoye" target="_blank" 
               className="px-8 py-4 bg-blue-700 text-white rounded-lg font-bold hover:bg-blue-800">
               Follow for Updates
             </a>
@@ -185,13 +185,13 @@ export default function Home() {
             <div>
               <h4 className="font-bold mb-3">Connect</h4>
               <ul className="text-sm text-gray-400 space-y-2">
-                <li><a href="https://twitter.com/yourhandle" className="hover:text-white">Twitter</a></li>
-                <li><a href="https://youtube.com/@yourchannel" className="hover:text-white">YouTube</a></li>
+                <li><a href="https://x.com/heyxiaoye" className="hover:text-white">Twitter</a></li>
+                <li><a href="https://youtube.com/@heyxiaoye" className="hover:text-white">YouTube</a></li>
               </ul>
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
-            <p>Built by <a href="https://twitter.com/yourhandle" className="text-blue-400 hover:underline">@YourHandle</a></p>
+            <p>Built by <a href="https://x.com/heyxiaoye" className="text-blue-400 hover:underline">@heyxiaoye</a></p>
           </div>
         </div>
       </footer>
